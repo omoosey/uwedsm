@@ -1,0 +1,187 @@
+body {
+	font-family: 'WaltographRegular';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 3em;
+	color: #245ccc;
+	text-shadow: black 2px 2px;
+	margin: 0px;
+}
+
+* {
+	position: relative;
+}
+
+
+a:hover {
+	border-bottom: 2px solid black;
+}
+
+/*.splash {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	position: relative;
+}*/
+
+.splash {
+	/*display: block;*/
+	/*vertical-align: bottom;*/
+}
+
+.navbar ul {
+	top: 0%;
+	position: fixed;
+	list-style-type: none;
+	padding: 0;
+	/*background-color: rgba(196, 196, 196, .56);*/
+	max-width: 100%;
+	width: 100%;
+	font-size: .45em;
+	z-index: 2;
+}
+
+.navbar li a {
+	text-decoration: none;
+	padding: 15px;
+	text-align: center;
+	display: block;
+	color: white;
+}
+
+.navbar li {
+	display: inline-block;
+	/*float: left;*/
+}
+
+.splash img {
+	background-repeat: no-repeat;
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	z-index: 0;
+	vertical-align: bottom;
+}
+
+.message {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -60%);
+	white-space: nowrap;
+	z-index: 1;
+}
+
+/*.message p {
+	position: absolute;
+	color: white;	
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%);
+	white-space: nowrap;
+}*/
+
+.message .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+  line-height: 1em;
+}
+
+.message .line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 3px;
+  width: 100%;
+  background-color: #245ccc;
+  transform-origin: 0.5 0;
+}
+
+.message .ampersand {
+  font-weight: 400;
+  margin-right: -0.1em;
+  margin-left: -0.1em;
+}
+
+.message .letters {
+  display: inline-block;
+  opacity: 0;
+}
+
+.about img {
+	background-repeat: no-repeat;
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	z-index: 0;
+	vertical-align: bottom;
+	/*margin: 10px 0;*/
+}
+
+#Mariano {
+	position: absolute;
+	top: 35%;
+	left: 72%;
+	transform: translate(-28%, -65%);
+	white-space: nowrap;
+	z-index: 1;
+}
+
+#Vashie {
+	position: absolute;
+	top: 55%;
+	left: 30%;
+	transform: translate(-70%, -45%);
+	z-index: 1;
+}
+
+.location img {
+	background-repeat: no-repeat;
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	z-index: 0;
+	vertical-align: bottom;
+}
+
+#jericho {
+	list-style-type: none;
+	position: absolute;
+	top: 25%;
+	left: 70%;
+	transform: translate(-30%, -75%);
+	z-index: 1;
+	white-space: nowrap;
+}
+
+#mandir{
+	list-style-type: none;
+	position: absolute;
+	top: 25%;
+	left: 30%;
+	transform: translate(-70%, -75%);
+	z-index: 1;
+	white-space: nowrap;
+}
+
+.party img {
+	background-repeat: no-repeat;
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	vertical-align: bottom;
+	/*z-index: 0;*/
+}
+
+/*
+.info {
+	width: 75%;
+	margin: auto;
+}*/
